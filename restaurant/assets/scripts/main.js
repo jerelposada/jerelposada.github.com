@@ -57,7 +57,7 @@ links.forEach(function(links)
 
         setTimeout(function()
         {
-            location.href ="/";
+            location.href ="/restaurant";
         },600);
         
 
