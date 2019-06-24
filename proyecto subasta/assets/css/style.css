@@ -3,15 +3,16 @@ html
     font-size: 62.5%;
 }
 header
-{   min-height: 800px;
+{   
     height:100vh;
     background-image:  url(../img/img3.jpg);
     width:100%;
     background-size:cover;
     background-position: center center;
-    
+
   
 }
+
 .navegacion
 {
     height: 5rem;
@@ -192,7 +193,7 @@ div.polaroid
 .paralax h2
 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-transform: capitalize;
     color: azure;
     margin: 1rem;
