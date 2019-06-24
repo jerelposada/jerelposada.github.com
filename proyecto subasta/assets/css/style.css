@@ -27,7 +27,8 @@ header
     color: black;
     text-decoration: none;
     font-size: 3rem;
-    margin-left: 1.2rem;
+    margin-left: 1px;
+    padding: 2px;
     
 }
 
@@ -36,7 +37,7 @@ header
     .navegacion a
     {
         font-size: 2rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
         
     }
 }
@@ -166,16 +167,17 @@ div.polaroid
 
 /* vamos a derle efecto al paralax*/
 
-.content
+.content 
 {
     position: relative;
-    background:url(../img/img4.jpg) 0 / cover fixed;
+    background:url(../img/img4.jpg) 0 / cover ;
     background-position: center center;
     height: 80rem;
     width: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
 
 }
+
 
 .paralax
 {
